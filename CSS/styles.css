@@ -1,0 +1,170 @@
+
+/*****************************TAG SELECTORS*****************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Satisfy', cursive;
+  font-size: 5.6rem;
+  color: white;
+  position: relative;
+  line-height: 6.72rem
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #11999E;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border: none;
+  border-top: 15px dotted #EAF6F6;
+  height: 0;
+  margin: 60px auto 60px auto;
+  width: 10%;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 0.9rem;
+}
+
+/*****************************CLASS SELECTORS*****************************/
+
+.topContainer {
+  background-color: #5eaaa8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.topCloud {
+  position: absolute;
+  right: 350px;
+  top: 70px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 350px;
+  top: 125px;
+}
+
+.iconAnalytics {
+  height: auto;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.IconPresentation {
+  height: auto;
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skillText {
+  display: inline;
+}
+
+.iconMe {
+  height: auto;
+  width: 15%;
+  margin-top: 30px;
+}
+
+.bottomContainer {
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding: 20px;
+  position: relative;
+
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.copyRight {
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.76rem;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  width: 102px;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 16px;
+  background-color: #66BFBF;
+  border: solid #337FED 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.btn:hover {
+  background: #838384;
+  border: solid #838384 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+/*****************************ID SELECTORS*****************************/
+
+/*
+#title {
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 45px;
+} */
+
+#pro {
+  text-decoration: underline;
+}
+
+#h2Top {
+  color: white;
+  font-weight: normal;
+  position: relative;
+  line-height: 1.8rem;
+}
